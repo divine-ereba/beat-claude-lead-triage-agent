@@ -151,17 +151,17 @@ Automation is responsible for collecting information, classifying routine commer
 
 The following artifacts are included with this submission:
 
-| Artifact | Repository Location | Description |
-|----------|---------------------|-------------|
-| n8n Workflow (JSON) | `/workflow/` | Complete automation workflow implementing the AI-powered Lead Triage Agent. |
-| Decision Log | `/artifacts/Log - Decision log.csv` | Final workflow output containing one routing decision for every processed lead in the fixture dataset. |
-| Duplicate Log | `/artifacts/Log - Duplicate log.csv` | Historical duplicate detection log generated during subsequent workflow executions. |
-| Metrics Export | `/artifacts/Log - Metrics.csv` | Export of the operational metrics generated from the Google Sheets reporting dashboard. |
-| Execution Evidence | `/artifacts/execution_log.png` | Screenshot of the successful n8n execution demonstrating completion of the full fixture dataset. |
-| Workflow Screenshots | `/screenshots/` | Screenshots showing key workflow configuration, AI settings, Gmail notifications, retry configuration, and execution evidence. |
-| Fixture SHA-256 Checksum | `/artifacts/SHA256.txt` | SHA-256 checksum identifying the exact fixture version processed for this submission. |
-| Submission Document | `/docs/submission.md` | Complete technical report describing the workflow architecture, implementation, testing, evidence, limitations, and AI usage disclosure. |
-| Loom Demonstration | Included as a repository link | Short walkthrough demonstrating the workflow architecture, execution, outputs, and generated artifacts. |
+| Artifact | Description |
+|----------|-------------|
+| n8n Workflow (JSON) | Complete workflow implementation available in the [workflow folder](https://github.com/divine-ereba/beat-claude-lead-triage-agent/tree/main/workflow). |
+| Decision Log | Final workflow output containing one routing decision for every processed lead in the [Decision Log](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/Log%20-%20Decision%20log.csv). |
+| Duplicate Log | Historical duplicate detection results available in the [Duplicate Log](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/Log%20-%20Duplicate%20log.csv). |
+| Metrics Export | Export of operational metrics generated from the reporting dashboard in the [Metrics file](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/Log%20-%20Metrics.csv). |
+| Execution Evidence | Successful workflow execution captured in the [execution log screenshot](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/execution_log.png). |
+| Workflow Screenshots | Supporting screenshots documenting workflow configuration, Gmail notifications, retries, and execution evidence in the [screenshots folder](https://github.com/divine-ereba/beat-claude-lead-triage-agent/tree/main/screenshots). |
+| Fixture SHA-256 Checksum | Verification hash for the supplied fixture contained in [SHA256.txt](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/SHA256.txt). |
+| Submission Document | Complete technical report available as [`docs/submission.md`](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/docs/submission.md). |
+| Loom Demonstration | Video walkthrough of the workflow architecture, execution, outputs, and dashboard. *(Insert Loom link here before submission.)* |
 
 All workflow outputs were generated using the provided fixture dataset (**Brief Version: 2026-07**).
 
