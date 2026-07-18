@@ -1,0 +1,13 @@
+Brief Version: 2026-07
+
+Fixture File:
+inbound_leads.csv
+
+SHA-256:
+CC1927CA771C37B186A2ABDB7B9757594DA79EC6DDA074E5A514DD2761CC8599
+
+Generated using:
+PowerShell Get-FileHash (SHA256)
+
+Original File Path:
+C:\Users\Admin\Downloads\inbound_leads.csv
