@@ -1,0 +1,19 @@
+LEAD OPERATIONS DASHBOARD,,
+Last Updated,7/18/2026 19:37:40,
+Total Leads Processed,20,
+Qualified,5,
+Nurture,9,
+Reject,2,
+Escalate,4,
+Duplicates,20,
+Average Confidence,89.50%,
+Average Monthly Budget (USD),"$67,947.17",
+,,
+,,
+,,
+DECISION PERFORMANCE,,
+Decision,Count,Average Confidence
+Qualified,5,90.00%
+Nurture,9,85.00%
+Reject,2,95.00%
+Escalate,4,96.25%
