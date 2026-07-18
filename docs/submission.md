@@ -151,16 +151,17 @@ Automation is responsible for collecting information, classifying routine commer
 
 The following artifacts are included with this submission:
 
-| Artifact | Description |
-|----------|-------------|
-| n8n Workflow (JSON) | Complete automation workflow implementing the Lead Triage Agent. |
-| Decision Log | Output containing one decision for every lead in the fixture dataset. |
-| Duplicate Log | Separate log showing historical duplicate detection during subsequent workflow executions. |
-| Lead Operations Dashboard | Google Sheets dashboard containing operational metrics and charts generated from workflow output. |
-| Execution Log | n8n execution history demonstrating a successful run of the complete fixture dataset. |
-| Workflow Screenshots | Key workflow configuration, retry settings, Gmail notifications, and execution evidence. |
-| Loom Demonstration | Short walkthrough showing the workflow architecture, execution, outputs, and dashboard. |
-| Fixture SHA-256 Checksum | Checksum identifying the exact fixture version processed for this submission. |
+| Artifact | Repository Location | Description |
+|----------|---------------------|-------------|
+| n8n Workflow (JSON) | `/workflow/` | Complete automation workflow implementing the AI-powered Lead Triage Agent. |
+| Decision Log | `/artifacts/Log - Decision log.csv` | Final workflow output containing one routing decision for every processed lead in the fixture dataset. |
+| Duplicate Log | `/artifacts/Log - Duplicate log.csv` | Historical duplicate detection log generated during subsequent workflow executions. |
+| Metrics Export | `/artifacts/Log - Metrics.csv` | Export of the operational metrics generated from the Google Sheets reporting dashboard. |
+| Execution Evidence | `/artifacts/execution_log.png` | Screenshot of the successful n8n execution demonstrating completion of the full fixture dataset. |
+| Workflow Screenshots | `/screenshots/` | Screenshots showing key workflow configuration, AI settings, Gmail notifications, retry configuration, and execution evidence. |
+| Fixture SHA-256 Checksum | `/artifacts/SHA256.txt` | SHA-256 checksum identifying the exact fixture version processed for this submission. |
+| Submission Document | `/docs/submission.md` | Complete technical report describing the workflow architecture, implementation, testing, evidence, limitations, and AI usage disclosure. |
+| Loom Demonstration | Included as a repository link | Short walkthrough demonstrating the workflow architecture, execution, outputs, and generated artifacts. |
 
 All workflow outputs were generated using the provided fixture dataset (**Brief Version: 2026-07**).
 
