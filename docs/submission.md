@@ -58,7 +58,7 @@ Beyond the fixture itself, the workflow also maintains historical duplicate dete
 
 Building the workflow required multiple iterations as these edge cases were uncovered through testing. Rather than optimizing solely for automated classification accuracy, the final workflow prioritizes trustworthy automation by allowing routine commercial enquiries to proceed while escalating only security, compliance, and operational risks that require human judgment.
 
-## One Bad Output and How I Addressed It
+## Failure Handling (One Bad Output and How I Addressed It)
 
 One issue I observed during testing was inconsistent classification of certain borderline leads across repeated executions of the same fixture. Although the input dataset remained unchanged, one lead that had previously been classified as **REJECT** was later classified as **ESCALATE**, causing the overall decision distribution and average confidence score to change between runs.
 
