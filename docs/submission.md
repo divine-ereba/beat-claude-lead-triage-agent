@@ -4,6 +4,8 @@
 
 **Brief Version:** 2026-07
 
+## Written Answer
+
 ## Introduction
 
 This submission implements an AI-powered lead triage workflow that automates the first-pass review of inbound website leads using n8n and OpenAI.
