@@ -161,7 +161,9 @@ The following artifacts are included with this submission:
 | Workflow Screenshots | Supporting screenshots documenting workflow configuration, Gmail notifications, retries, and execution evidence in the [screenshots folder](https://github.com/divine-ereba/beat-claude-lead-triage-agent/tree/main/screenshots). |
 | Fixture SHA-256 Checksum | Verification hash for the supplied fixture contained in [SHA256.txt](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/artifacts/SHA256.txt). |
 | Submission Document | Complete technical report available as [`docs/submission.md`](https://github.com/divine-ereba/beat-claude-lead-triage-agent/blob/main/docs/submission.md). |
-| Loom Demonstration | Video walkthrough of the workflow architecture, execution, outputs, and dashboard. *(Insert Loom link here before submission.)* |
+| Loom Demonstration | Complete workflow walkthrough provided in two parts due to recording platform limitations.<br><br>**Part 1 – Workflow Architecture & Design:** https://www.loom.com/share/fa5e9c8df2c8444a8461f9c0102009ae<br><br>**Part 2 – Workflow Execution, Outputs & Dashboard:** https://www.loom.com/share/ffc9bee1c56c437788f9c92b46d67154 |
+
+**Note:** The workflow demonstration is provided as two sequential recordings due to recording platform limitations. Part 1 introduces the workflow architecture and implementation, while Part 2 demonstrates execution against the provided fixture dataset, generated outputs, operational dashboard, and final observations.
 
 All workflow outputs were generated using the provided fixture dataset (**Brief Version: 2026-07**).
 
